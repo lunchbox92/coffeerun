@@ -6,11 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>coffeerun</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
 </head>
 
-<body>
-    <h1>coffeerun</h1>
+<body class="container">
+    <header>
+        <h1>CoffeeRun</h1>
+    </header>
+    <section>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form data-coffee-order="form" action="">
+                    <div class="form-group">
+                        <label for="coffeeOrder">Coffee Order</label>
+                        <input type="text" class="form-control" name="coffee" id="coffeeOrder">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script src="scripts/datastore.js" charset="utf-8" type="text/javascript"></script>
     <script src="scripts/truck.js" charset="utf-8" type="text/javascript"></script>
     <script src="scripts/main.js" charset="utf-8" type="text/javascript"></script>
