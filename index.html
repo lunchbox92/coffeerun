@@ -12,21 +12,58 @@
 </head>
 
 <body class="container">
-    <header>
-        <h1>CoffeeRun</h1>
-    </header>
-    <section>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <form data-coffee-order="form" action="">
-                    <div class="form-group">
-                        <label for="coffeeOrder">Coffee Order</label>
-                        <input type="text" class="form-control" name="coffee" id="coffeeOrder" autofocus>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <header>
+                <h1>CoffeeRun</h1>
+            </header>
+            <section>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form data-coffee-order="form" action="">
+                            <div class="form-group">
+                                <label for="coffeeOrder">Coffee Order</label>
+                                <input type="text" class="form-control" name="coffee" id="coffeeOrder" autofocus placeholder="Black Coffee Iced">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailInput">Email</label>
+                                <input type="email" name=emailAddress class="form-control" id="emailInput" value="" placeholder="jeramy@bbc.com">
+                            </div>
+                            <div class="radio">
+                                <label>
+                                <input type="radio" name="size" value="short">
+                                Short
+                              </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                <input type="radio" name="size" value="tall" checked>
+                                Tall
+                              </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                <input type="radio" name="size" value="grande">
+                                Grande
+                              </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="flavorShot">Flavor Shot</label>
+                                <select name="" id="flavorShot" class="form-control" name=flavor>
+                                    <option value="">None</option>
+                                    <option value="caramel">Caramel</option>
+                                    <option value="almond">Almond</option>
+                                    <option value="mocha">Mocha</option>
+                                  </select>
+                            </div>
+
+                        </form>
                     </div>
-                </form>
-            </div>
+                </div>
+            </section>
         </div>
-    </section>
+    </div>
+
 
 
 
